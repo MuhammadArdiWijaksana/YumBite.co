@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YumBite.co</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background-image: url('hero-image.jpg'); /* Ganti dengan gambar hero yang sesuai */
+            background-size: cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 2em;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: 200px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>YumBite.co</h1>
+    <nav>
+        <a href="#about">Tentang Kami</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h2>Selamat Datang di YumBite!</h2>
+</div>
+
+<div class="content">
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Kami menyediakan camilan lezat yang siap memuaskan selera Anda!</p>
+    </section>
+
+    <section id="products">
+        <h2>Produk Kami</h2>
+        <div class="products">
+            <div class="product">
+                <h3>Sandwich</h3>
+                <p>Lezat dan mengenyangkan!</p>
+            </div>
+            <div class="product">
+                <h3>Mille Crepes Roll</h3>
+                <p>Pasti enak karna yang buat ocha!</p>
+            </div>
+            <div class="product">
+                <h3>Mentai</h3>
+                <p>Pedas dan menggugah selera!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Hubungi kami di: info@yumbite.co</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 YumBite.co. Semua hak dilindungi.</p>
+</footer>
+
+</body>
+</html>
